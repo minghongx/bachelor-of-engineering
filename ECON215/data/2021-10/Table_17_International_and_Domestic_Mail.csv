@@ -1,0 +1,24 @@
+﻿rundate,reporting_period,reporting_airport_group_name,reporting_airport_name,mail_scheduled_passenger_aircraft_foreign_EU,mail_scheduled_cargo_aircraft_foreign_EU,mail_charter_passenger_aircraft_foreign_EU,mail_charter_cargo_aircraft_foreign_EU,mail_scheduled_passenger_aircraft_foreign_non_EU,mail_scheduled_cargo_aircraft_foreign_non_EU,mail_charter_passenger_aircraft_foreign_non_EU,mail_charter_cargo_aircraft_foreign_non_EU,mail_scheduled_passenger_aircraft_UK,mail_scheduled_cargo_aircraft_UK,mail_charter_passenger_aircraft_UK,mail_charter_cargo_aircraft_UK
+12/13/2021 9:07:22 AM,202110,London Area Airports,GATWICK,94.046,0,0.065,0,79.097,0,0,0,0,0,0,0
+12/13/2021 9:07:22 AM,202110,London Area Airports,HEATHROW,535.71,0,0,20.783,3254.881,277.425,6.797,128.361,1.128,0,0,0
+12/13/2021 9:07:22 AM,202110,London Area Airports,STANSTED,0,0,0,0,1.952,0,0,0,0,0,0,1582.043
+12/13/2021 9:07:22 AM,202110,London Area Airports,SOUTHEND,0,16.81,0,0,0,0,0,0,0,0,0,0
+12/13/2021 9:07:22 AM,202110,Non UK Reporting Airports,ALDERNEY,0,0,0,0,0,0,0,0,6.797,0.206,0,0
+12/13/2021 9:07:22 AM,202110,Non UK Reporting Airports,GUERNSEY,0,0,0,0,0,0,0,0,7.027,0.206,0,212.539
+12/13/2021 9:07:22 AM,202110,Non UK Reporting Airports,ISLE OF MAN,0,0,0,0,0,0,0,0,0,0,0,130.501
+12/13/2021 9:07:22 AM,202110,Non UK Reporting Airports,JERSEY,0,0,0,0,0,0,0,0,1.084,169.177,0,0
+12/13/2021 9:07:22 AM,202110,Other UK Airports,ABERDEEN,0,0,0,0,0,0,0,0,0,0,0,144.939
+12/13/2021 9:07:22 AM,202110,Other UK Airports,BELFAST INTERNATIONAL,0,7.858,0,0,0,0,0,0,0,1339.329,0,0
+12/13/2021 9:07:22 AM,202110,Other UK Airports,BIRMINGHAM,0,0,0,0,23.023,0,0,0,0,0,0,0
+12/13/2021 9:07:22 AM,202110,Other UK Airports,EAST MIDLANDS INTERNATIONAL,0,0,0,0,0,0,0,0,0,1555.401,0,0
+12/13/2021 9:07:22 AM,202110,Other UK Airports,EDINBURGH,0,0,0,0,0,0,0,0,0,1381.473,0,0
+12/13/2021 9:07:22 AM,202110,Other UK Airports,EXETER,0,0,0,0,0,0,0,0,0,0,0,276.786
+12/13/2021 9:07:22 AM,202110,Other UK Airports,GLASGOW,0,0,0,0,0,0,0,0,11.786,0,0,0
+12/13/2021 9:07:22 AM,202110,Other UK Airports,INVERNESS,0,0,0,0,0,0,0,0,0,0,0,86.178
+12/13/2021 9:07:22 AM,202110,Other UK Airports,ISLAY,0,0,0,0,0,0,0,0,8.038,0,0,0
+12/13/2021 9:07:22 AM,202110,Other UK Airports,ISLES OF SCILLY (ST.MARYS),0,0,0,0,0,0,0,0,2.2,14,0,0
+12/13/2021 9:07:22 AM,202110,Other UK Airports,KIRKWALL,0,0,0,0,0,0,0,0,1.266,0.047,0,0
+12/13/2021 9:07:22 AM,202110,Other UK Airports,LANDS END (ST JUST),0,0,0,0,0,0,0,0,2.3,14,0,0
+12/13/2021 9:07:22 AM,202110,Other UK Airports,MANCHESTER,0.988,0,0,0,22.859,0,0,0,0,0,0,0
+12/13/2021 9:07:22 AM,202110,Other UK Airports,TIREE,0,0,0,0,0,0,0,0,3.54,0.113,0,0
+

@@ -1,0 +1,1148 @@
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3 Portable) (format=lualatex 2022.4.21)  9 MAY 2022 03:37
+ system commands enabled.
+ file:line:error style messages enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2021-11-15> patch level 1
+Lua module: luaotfload 2022-02-27 3.20 Lua based OpenType font support
+Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/devel/scoop/apps/latex/cur
+rent/texmfs/data/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-02-24.lua" from kpse-res
+olved path "C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/luatex/lu
+aotfload/fontloader-2022-02-24.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.119
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/devel/scoop/apps/latex/cur
+rent/texmfs/data/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' at position 1 in `glyph_stream_provider'
+.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2022-02-24>
+Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/base/article.
+cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/base/size12.c
+lo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/devel/scoop/apps/late
+x/current/texmfs/data/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen137
+) (./preamble.tex
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/biblatex/bibl
+atex.sty
+Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/pdftexcmds/
+pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/infwarerr/i
+nfwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/iftex/iftex
+.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/ltxcmds/ltx
+cmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks16
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/etoolbox/etoo
+lbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count191
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/graphics/keyv
+al.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/kvoptions/kvo
+ptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/kvsetkeys/k
+vsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/logreq/logreq
+.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count192
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/logreq/logreq
+.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/base/ifthen.s
+ty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count193
+\c@listtotal=\count194
+\c@listcount=\count195
+\c@liststart=\count196
+\c@liststop=\count197
+\c@citecount=\count198
+\c@citetotal=\count199
+\c@multicitecount=\count266
+\c@multicitetotal=\count267
+\c@instcount=\count268
+\c@maxnames=\count269
+\c@minnames=\count270
+\c@maxitems=\count271
+\c@minitems=\count272
+\c@citecounter=\count273
+\c@maxcitecounter=\count274
+\c@savedcitecounter=\count275
+\c@uniquelist=\count276
+\c@uniquename=\count277
+\c@refsection=\count278
+\c@refsegment=\count279
+\c@maxextratitle=\count280
+\c@maxextratitleyear=\count281
+\c@maxextraname=\count282
+\c@maxextradate=\count283
+\c@maxextraalpha=\count284
+\c@abbrvpenalty=\count285
+\c@highnamepenalty=\count286
+\c@lownamepenalty=\count287
+\c@maxparens=\count288
+\c@parenlevel=\count289
+\blx@tempcnta=\count290
+\blx@tempcntb=\count291
+\blx@tempcntc=\count292
+\c@blx@maxsection=\count293
+\c@blx@maxsegment@0=\count294
+\blx@notetype=\count295
+\blx@parenlevel@text=\count296
+\blx@parenlevel@foot=\count297
+\c@blx@sectionciteorder@0=\count298
+\blx@entrysetcounter=\count299
+\blx@biblioinstance=\count300
+\labelnumberwidth=\skip49
+\labelalphawidth=\skip50
+\biblabelsep=\skip51
+\bibitemsep=\skip52
+\bibnamesep=\skip53
+\bibinitsep=\skip54
+\bibparsep=\skip55
+\bibhang=\skip56
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language2
+\c@mincomprange=\count301
+\c@maxcomprange=\count302
+\c@mincompwidth=\count303
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/biblatex/blx-
+dm.def
+File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count304
+\c@savedafterword=\count305
+\c@annotator=\count306
+\c@savedannotator=\count307
+\c@author=\count308
+\c@savedauthor=\count309
+\c@bookauthor=\count310
+\c@savedbookauthor=\count311
+\c@commentator=\count312
+\c@savedcommentator=\count313
+\c@editor=\count314
+\c@savededitor=\count315
+\c@editora=\count316
+\c@savededitora=\count317
+\c@editorb=\count318
+\c@savededitorb=\count319
+\c@editorc=\count320
+\c@savededitorc=\count321
+\c@foreword=\count322
+\c@savedforeword=\count323
+\c@holder=\count324
+\c@savedholder=\count325
+\c@introduction=\count326
+\c@savedintroduction=\count327
+\c@namea=\count328
+\c@savednamea=\count329
+\c@nameb=\count330
+\c@savednameb=\count331
+\c@namec=\count332
+\c@savednamec=\count333
+\c@translator=\count334
+\c@savedtranslator=\count335
+\c@shortauthor=\count336
+\c@savedshortauthor=\count337
+\c@shorteditor=\count338
+\c@savedshorteditor=\count339
+\c@labelname=\count340
+\c@savedlabelname=\count341
+\c@institution=\count342
+\c@savedinstitution=\count343
+\c@lista=\count344
+\c@savedlista=\count345
+\c@listb=\count346
+\c@savedlistb=\count347
+\c@listc=\count348
+\c@savedlistc=\count349
+\c@listd=\count350
+\c@savedlistd=\count351
+\c@liste=\count352
+\c@savedliste=\count353
+\c@listf=\count354
+\c@savedlistf=\count355
+\c@location=\count356
+\c@savedlocation=\count357
+\c@organization=\count358
+\c@savedorganization=\count359
+\c@origlocation=\count360
+\c@savedoriglocation=\count361
+\c@origpublisher=\count362
+\c@savedorigpublisher=\count363
+\c@publisher=\count364
+\c@savedpublisher=\count365
+\c@language=\count366
+\c@savedlanguage=\count367
+\c@origlanguage=\count368
+\c@savedoriglanguage=\count369
+\c@pageref=\count370
+\c@savedpageref=\count371
+\shorthandwidth=\skip57
+\shortjournalwidth=\skip58
+\shortserieswidth=\skip59
+\shorttitlewidth=\skip60
+\shortauthorwidth=\skip61
+\shorteditorwidth=\skip62
+\locallabelnumberwidth=\skip63
+\locallabelalphawidth=\skip64
+\localshorthandwidth=\skip65
+\localshortjournalwidth=\skip66
+\localshortserieswidth=\skip67
+\localshorttitlewidth=\skip68
+\localshortauthorwidth=\skip69
+\localshorteditorwidth=\skip70
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/biblatex/blx-
+unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/biblatex/blx-
+compat.def
+File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/biblatex/bibl
+atex.def
+File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+\c@textcitecount=\count372
+\c@textcitetotal=\count373
+\c@textcitemaxnames=\count374
+\c@biburlbigbreakpenalty=\count375
+\c@biburlbreakpenalty=\count376
+\c@biburlnumpenalty=\count377
+\c@biburlucpenalty=\count378
+\c@biburllcpenalty=\count379
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count380
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/biblatex-ieee
+/ieee.bbx
+File: ieee.bbx 2021/12/06 v1.3f biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/biblatex/bbx/
+numeric-comp.bbx
+File: numeric-comp.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/biblatex/bbx/
+numeric.bbx
+File: numeric.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/biblatex/bbx/
+standard.bbx
+File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count381
+\c@bbx:relatedtotal=\count382
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/biblatex-ieee
+/ieee.cbx
+File: ieee.cbx 2021/12/06 v1.3f biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/biblatex/cbx/
+numeric-comp.cbx
+File: numeric-comp.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count383
+\c@cbx@tempcntb=\count384
+\c@cbx@tempcntc=\count385
+\c@cbx@tempcntd=\count386
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\cites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/biblatex/bibl
+atex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/l3kernel/expl
+3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/l3backend/l3b
+ackend-luatex.def
+File: l3backend-luatex.def 2022-02-07 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count387
+\l__pdf_internal_box=\box50
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2022-02-24 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/biblatex/blx-
+case-expl3.sty
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/l3packages/xp
+arse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
+))
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/babel/babel
+.sty
+Package: babel 2022/02/26 3.73 The Babel package
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/babel/luaba
+bel.def
+\bbl@readstream=\read3
+\l@afrikaans=\language3
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@ancientgreek=\language4
+\l@armenian=\language5
+\l@assamese=\language6
+\l@basque=\language7
+\l@belarusian=\language8
+\l@bengali=\language9
+\l@bokmal=\language10
+\l@bulgarian=\language11
+\l@catalan=\language12
+\l@churchslavonic=\language13
+\l@classiclatin=\language14
+\l@coptic=\language15
+\l@croatian=\language16
+\l@czech=\language17
+\l@danish=\language18
+\l@dutch=\language19
+\l@esperanto=\language20
+\l@estonian=\language21
+\l@ethiopic=\language22
+\l@finnish=\language23
+\l@french=\language24
+\l@friulan=\language25
+\l@galician=\language26
+\l@georgian=\language27
+\l@german=\language28
+\l@greek=\language29
+\l@gujarati=\language30
+\l@hindi=\language31
+\l@hungarian=\language32
+\l@icelandic=\language33
+\l@indonesian=\language34
+\l@interlingua=\language35
+\l@irish=\language36
+\l@italian=\language37
+\l@kannada=\language38
+\l@kurmanji=\language39
+\l@latin=\language40
+\l@latvian=\language41
+\l@lithuanian=\language42
+\l@liturgicallatin=\language43
+\l@macedonian=\language44
+\l@malayalam=\language45
+\l@marathi=\language46
+\l@mongolian=\language47
+\l@mongolianlmc=\language48
+\l@monogreek=\language49
+\l@ngerman=\language50
+\l@nynorsk=\language51
+\l@occitan=\language52
+\l@oriya=\language53
+\l@pali=\language54
+\l@panjabi=\language55
+\l@piedmontese=\language56
+\l@polish=\language57
+\l@portuguese=\language58
+\l@romanian=\language59
+\l@romansh=\language60
+\l@russian=\language61
+\l@sanskrit=\language62
+\l@serbian=\language63
+\l@serbianc=\language64
+\l@slovak=\language65
+\l@slovenian=\language66
+\l@spanish=\language67
+\l@swedish=\language68
+\l@swissgerman=\language69
+\l@tamil=\language70
+\l@telugu=\language71
+\l@thai=\language72
+\l@turkish=\language73
+\l@turkmen=\language74
+\l@ukenglish=\language75
+\l@ukrainian=\language76
+\l@uppersorbian=\language77
+\l@usenglishmax=\language78
+\l@welsh=\language79
+\babelcatcodetablenum=\catcodetable12
+\bbl@pattcodes=\catcodetable13
+)
+\babel@savecnt=\count388
+\U@D=\dimen138
+\l@unhyphenated=\language80
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/babel/luaba
+bel.def
+\bbl@attr@locale=\attribute4
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/arabi/bblopts
+.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/babel-english
+/british.ldf
+Language: british 2017/06/06 v3.3r English support from the babel system
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/babel-english
+/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language75). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language75). Reported on input line 108.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/hyph-utf8/l
+oadhyph/loadhyph-en-gb.tex ASCII Hyphenation patterns for British English
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/hyph-utf8/p
+atterns/tex/hyph-en-gb.tex)))))
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/fontspec/font
+spec.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/fontspec/font
+spec-luatex.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count389
+\l__fontspec_language_int=\count390
+\l__fontspec_strnum_int=\count391
+\l__fontspec_tmp_int=\count392
+\l__fontspec_tmpa_int=\count393
+\l__fontspec_tmpb_int=\count394
+\l__fontspec_tmpc_int=\count395
+\l__fontspec_em_int=\count396
+\l__fontspec_emdef_int=\count397
+\l__fontspec_strong_int=\count398
+\l__fontspec_strongdef_int=\count399
+\l__fontspec_tmpa_dim=\dimen139
+\l__fontspec_tmpb_dim=\dimen140
+\l__fontspec_tmpc_dim=\dimen141
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/base/fontenc.
+sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/fontspec/font
+spec.cfg)))
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/geometry/geom
+etry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/iftex/ifvte
+x.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count400
+\Gm@cntv=\count401
+\c@Gm@tempcnt=\count402
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks18
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/geometry/geom
+etry.cfg))
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/graphics/grap
+hicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/graphics/grap
+hics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/graphics/trig
+.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/graphics-cfg/
+graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/graphics-def/
+luatex.def
+File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/hyperref/hype
+rref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/kvdefinekey
+s/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/pdfescape/p
+dfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/hycolor/hycol
+or.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/letltxmacro/l
+etltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/auxhook/auxho
+ok.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen152
+\Hy@linkcounter=\count403
+\Hy@pagecounter=\count404
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/hyperref/pd1e
+nc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/intcalc/int
+calc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/etexcmds/et
+excmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count405
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/hyperref/puen
+c.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count406
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen153
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/bitset/bits
+et.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/bigintcalc/
+bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count407
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/base/atbegshi
+-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count408
+\c@Item=\count409
+\c@Hfootnote=\count410
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/hyperref/hlua
+tex.def
+File: hluatex.def 2022-02-21 v7.00n Hyperref driver for luaTeX
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/stringenc/s
+tringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/base/atveryen
+d-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count411
+\c@bookmark@seq@number=\count412
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/rerunfilechec
+k/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/uniquecount
+er/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip71
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/amsmath/amsma
+th.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip72
+
+For additional information on amsmath, use the `?' option.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/amsmath/amste
+xt.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/amsmath/amsge
+n.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen156
+))
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/amsmath/amsbs
+y.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen157
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/amsmath/amsop
+n.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count413
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count414
+\leftroot@=\count415
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count416
+\DOTSCASE@=\count417
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen158
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count418
+\c@MaxMatrixCols=\count419
+\dotsspace@=\muskip21
+\c@parentequation=\count420
+\dspbrk@lvl=\count421
+\tag@help=\toks20
+\row@=\count422
+\column@=\count423
+\maxfields@=\count424
+\andhelp@=\toks21
+\eqnshift@=\dimen159
+\alignsep@=\dimen160
+\tagshift@=\dimen161
+\tagwidth@=\dimen162
+\totwidth@=\dimen163
+\lineht@=\dimen164
+\@envbody=\toks22
+\multlinegap=\skip73
+\multlinetaggap=\skip74
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/appendix/appe
+ndix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count425
+\c@@ppsavesec=\count426
+\c@@ppsaveapp=\count427
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/setspace/sets
+pace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 17.
+Package hyperref Info: Option `colorlinks' set `true' on input line 18.
+)
+luaotfload | cache : Lookup cache loaded from C:/Users/devel/scoop/apps/latex/cu
+rrent/texmfs/data/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'Arial(0)' created for font 'Arial' with
+(fontspec)             options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Arial:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"Arial:mode=node;script=latn;language=dflt;+tlig;+smc
+p;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Arial/B:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"Arial/B:mode=node;script=latn;language=dflt;+tlig;+s
+mcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Arial/I:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Arial/BI:mode=node;script=latn;language=dflt;+tlig;"
+
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count428
+\@quotereset=\count429
+(C:/Users/devel/Desktop/liv/ELEC230/ass4/report/.build/main.aux)
+\openout1 = main.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
+.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/base/ts1cmr.f
+d
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+Package biblatex Info: Trying to load language 'british'...
+Package biblatex Info: ... file 'british.lbx' found.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/biblatex/lbx/
+british.lbx
+File: british.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/biblatex/lbx/
+english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+))
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+\openout3 = main.bcf
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (C:/Users/devel/Desktop/liv/ELEC230/ass4/report/.build/main.bbl)
+Package biblatex Info: Reference section=0 on input line 5.
+Package biblatex Info: Reference segment=0 on input line 5.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 5.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 5.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 5.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 5.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 5.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 5.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 5.
+LaTeX Font Info:    Redeclaring math accent \check on input line 5.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 5.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 5.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 5.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 5.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 5.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 5.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/Arial(0)/m/n on input line 5.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 5.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/m/n on input line 5.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/m/n on input line 5.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/Arial(0)/m/it on input line 5.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/b/n on input line 5.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 5.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 5.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/b/n on input line 5.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/Arial(0)/b/it on input line 5.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 5.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 5.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=674.33032pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/context/base/mkii/s
+upp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count430
+\scratchdimen=\dimen165
+\scratchbox=\box53
+\nofMPsegments=\count431
+\nofMParguments=\count432
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count433
+\MPscratchDim=\dimen166
+\MPnumerator=\count434
+\makeMPintoPDFobject=\count435
+\everyMPtoPDFconversion=\toks25
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/epstopdf-pkg/
+epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/00miktex/epst
+opdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/graphics/colo
+r.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/graphics-cfg/
+color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: luatex.def on input line 149.
+)
+Package hyperref Info: Link coloring ON on input line 5.
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/hyperref/name
+ref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/latex/refcount/refc
+ount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:/Users/devel/scoop/apps/latex/current/texmfs/install/tex/generic/gettitlestr
+ing/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count436
+)
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+LaTeX Info: Redefining \nameref on input line 5.
+
+(C:/Users/devel/Desktop/liv/ELEC230/ass4/report/.build/main.out)
+(C:/Users/devel/Desktop/liv/ELEC230/ass4/report/.build/main.out)
+\@outlinefile=\write4
+
+\openout4 = main.out
+
+(./front_matter/cover.tex
+<assets/images/LivUniCrest.pdf, id=47, 426.76942pt x 108.93198pt>
+File: assets/images/LivUniCrest.pdf Graphic file (type pdf)
+<use assets/images/LivUniCrest.pdf>
+Package luatex.def Info: assets/images/LivUniCrest.pdf  used on input line 6.
+(luatex.def)             Requested size: 167.2989pt x 42.7027pt.
+ [1
+
+{C:/Users/devel/scoop/apps/latex/current/texmfs/data/fonts/map/pdftex/pdftex.map
+}<./assets/images/LivUniCrest.pdf>])
+(./front_matter/contents.tex
+(C:/Users/devel/Desktop/liv/ELEC230/ass4/report/.build/main.toc)
+\tf@toc=\write5
+
+\openout5 = main.toc
+
+(C:/Users/devel/Desktop/liv/ELEC230/ass4/report/.build/main.lof)
+\tf@lof=\write6
+
+\openout6 = main.lof
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1]) (./body/background.tex) (./body/discussion.tex
+<assets/images/figures/std_dev.png, id=110, 1226.5825pt x 855.195pt>
+File: assets/images/figures/std_dev.png Graphic file (type png)
+<use assets/images/figures/std_dev.png>
+Package luatex.def Info: assets/images/figures/std_dev.png  used on input line 
+11.
+(luatex.def)             Requested size: 334.60422pt x 233.29375pt.
+ [2<./assets/images/figures/std_dev.png>]
+<assets/images/figures/Sobel_with_normalised_box_or_Gaussian.png, id=117, 1219.
+55624pt x 851.18pt>
+File: assets/images/figures/Sobel_with_normalised_box_or_Gaussian.png Graphic f
+ile (type png)
+<use assets/images/figures/Sobel_with_normalised_box_or_Gaussian.png>
+Package luatex.def Info: assets/images/figures/Sobel_with_normalised_box_or_Gau
+ssian.png  used on input line 29.
+(luatex.def)             Requested size: 334.60422pt x 233.53621pt.
+ [3<./assets/images/figures/Sobel_with_normalised_box_or_Gaussian.png>]
+<assets/images/figures/Sobel_VS_Canny.png, id=132, 2022.55624pt x 850.17625pt>
+File: assets/images/figures/Sobel_VS_Canny.png Graphic file (type png)
+<use assets/images/figures/Sobel_VS_Canny.png>
+Package luatex.def Info: assets/images/figures/Sobel_VS_Canny.png  used on inpu
+t line 53.
+(luatex.def)             Requested size: 418.25368pt x 175.80505pt.
+<assets/images/figures/edges_of_doorway.png, id=134, 976.24725pt x 510.10574pt>
+
+File: assets/images/figures/edges_of_doorway.png Graphic file (type png)
+<use assets/images/figures/edges_of_doorway.png>
+Package luatex.def Info: assets/images/figures/edges_of_doorway.png  used on in
+put line 65.
+(luatex.def)             Requested size: 376.42575pt x 196.69098pt.
+ [4<./assets/images/figures/Sobel_VS_Canny.png>]
+Overfull \hbox (14.84288pt too wide) in paragraph at lines 75--76
+\TU/Arial(0)/m/n/12 The k-nearest neigh-bors (KNN) al-gorithm is a su-per-vised ma-chine learn-ing method.
+ []
+
+) (./back_matter/references.tex
+Overfull \hbox (8.89085pt too wide) in paragraph at lines 79--1
+[]\TU/Arial(0)/m/n/12 Back-ground sub-trac-tion can help ro-bots to achieve tar-
+get track-ing and obstacle
+ []
+
+[5<./assets/images/figures/edges_of_doorway.png>]) [6]
+(C:/Users/devel/Desktop/liv/ELEC230/ass4/report/.build/main.aux)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 0E11092D0E5468C0E086CD5580D56C8C;891.
+Package logreq Info: Writing requests to 'main.run.xml'.
+
+\openout1 = main.run.xml
+)
+
+Here is how much of LuaTeX's memory you used:
+ 21301 strings out of 477785
+ 125044,1373583 words of node,token memory allocated
+ 630 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 18 attribute, 66 glue_spec
+, 11 attribute_list, 1 write, 2 pdf_action nodes
+   avail lists: 1:1,2:546,3:174,4:116,5:143,6:53,7:3917,8:62,9:234,10:21,11:276
+ 41230 multiletter control sequences out of 65536+600000
+ 52 fonts using 15529559 bytes
+ 65i,6n,87p,1072b,2371s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<//?/c:/users/devel/scoop/apps/latex/current/texmfs/install/fonts/opentype/publi
+c/lm/lmmono12-regular.otf><C:/Windows/Fonts/arialni.ttf><C:/Windows/Fonts/arialb
+d.ttf><C:/Windows/Fonts/arial.ttf><C:/Users/devel/scoop/apps/latex/current/texmf
+s/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/devel/scoop/apps/l
+atex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/d
+evel/scoop/apps/latex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb><C:/Users/devel/scoop/apps/latex/current/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmr6.pfb><C:/Users/devel/scoop/apps/latex/current/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/devel/scoop/apps/latex/current
+/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (7 pages, 4200550 bytes).
+
+PDF statistics: 206 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 131072)
+ 89 words of extra memory for PDF output out of 10000 (max. 100000000)
+

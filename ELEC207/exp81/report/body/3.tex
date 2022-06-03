@@ -1,0 +1,63 @@
+\newpage
+\section{Ensuring that the Closed-loop System is Stable Using PID Control}
+
+\begin{questions}
+\setcounter{question}{\value{lastquestioncounter}}
+
+\question[3M]
+Write the closed-loop transfer function for your Segway in terms of $K_P$, $K_I$ and $K_D$ as a ratio of polynomials in $s$. Ensure that the highest order term in $s$ in the denominator has a coefficient of unity.
+
+\begin{solution}
+   The transfer function in the Laplace domain of the PID controller is
+   \begin{equation}\label{eq:TF_of_PID}
+   C(s) = \frac{K_D s^2 + K_P s + K_I}{s}
+   \end{equation}
+
+   The closed-loop transfer function is
+   \begin{equation*}
+   \frac{\Theta(s)}{X(s)} = \frac{C(s)H(s)}{1 + C(s)H(s)}
+   \end{equation*}
+
+   Subsituting $C(s)$ which is Eq (\ref{eq:TF_of_PID}) and $H(s)$ which is Eq (\ref{eq:TF_of_Segway}) into the above equation yields
+   \begin{equation}\label{eq:CLTF}
+   \begin{split}
+   \frac{\Theta(s)}{X(s)} &= \frac{\frac{K_D s^2 + K_P s + K_I}{s}\frac{1}{m s^2-\frac{g}{l}}}{1 + \frac{K_D s^2 + K_P s + K_I}{s}\frac{1}{m s^2 - \frac{g}{l}}} \\
+   &= \frac{\frac{K_D}{m} s^2 + \frac{K_P}{m} s + \frac{K_I}{m}}{s^3 + \frac{K_D}{m} s^2 + \frac{1}{m} (K_P-\frac{g}{l}) s + \frac{K_I}{m}}
+   \end{split}
+   \end{equation}
+\end{solution}
+
+\question[1M]
+What is the characteristic polynomial that would result in these pole positions?
+
+\begin{solution}
+   \begin{equation}\label{characteristic_polynominal}
+   (s+1)(s+2)(s+3) = s^3 + 6s^2 + 11s +6
+   \end{equation}
+\end{solution}
+
+\newpage
+\question[3M]
+By equating the coefficients in the closed-loop transfer function's denominator and this characteristic function, deduce values for $K_p$, $K_I$ and $K_D$ which will ensure that the closed-loop system is stable.
+
+\begin{solution}
+   Equating the coefficients in the denominator of Eq (\ref{eq:CLTF}) and the characteristic polynominal (\ref{characteristic_polynominal})
+   \begin{align*}
+   &s^3 + \frac{K_D}{m} s^2 + \frac{1}{m} (K_P-\frac{g}{l}) s + \frac{K_I}{m} = s^3 + 6s^2 + 11s +6 \\
+   &\implies
+   \begin{cases}
+   \frac{K_D}{m} = 6 \\
+   \frac{1}{m} (K_P - \frac{g}{l}) = 11 \\
+   \frac{K_I}{m} = 6
+   \end{cases} \\
+   &\implies
+   \begin{cases}
+   K_D = 72 \\
+   K_P = 132.3 \\
+   K_I = 72 \\
+   \end{cases}
+   \end{align*}
+\end{solution}
+
+\setcounter{lastquestioncounter}{\value{question}}
+\end{questions}

@@ -1,0 +1,27 @@
+﻿rundate,reporting_period,reporting_airport_group_name,reporting_airport_name,mail_scheduled_passenger_aircraft_foreign_EU,mail_scheduled_cargo_aircraft_foreign_EU,mail_charter_passenger_aircraft_foreign_EU,mail_charter_cargo_aircraft_foreign_EU,mail_scheduled_passenger_aircraft_foreign_non_EU,mail_scheduled_cargo_aircraft_foreign_non_EU,mail_charter_passenger_aircraft_foreign_non_EU,mail_charter_cargo_aircraft_foreign_non_EU,mail_scheduled_passenger_aircraft_UK,mail_scheduled_cargo_aircraft_UK,mail_charter_passenger_aircraft_UK,mail_charter_cargo_aircraft_UK
+12/16/2019 12:02:50 PM,201910,London Area Airports,GATWICK,254.248,0,0.003,0,402.705,0,0,0,0.931,0,0,0
+12/16/2019 12:02:50 PM,201910,London Area Airports,HEATHROW,1065.766,0,0,0,6392.89200000001,0,0,0,0.364,0,0,0
+12/16/2019 12:02:50 PM,201910,London Area Airports,LONDON CITY,14.664,0,0,0,60.676,0,0,0,0,0,0,0
+12/16/2019 12:02:50 PM,201910,London Area Airports,LUTON,6.314,71.366,0,0,0,0,0,0,0,0,0,0
+12/16/2019 12:02:50 PM,201910,London Area Airports,STANSTED,0,0,0,0,0,0,0,0,0,0,0,1438.149
+12/16/2019 12:02:50 PM,201910,Non UK Reporting Airports,ALDERNEY,0,0,0,0,0,0,0,0,8.03,0,0,0
+12/16/2019 12:02:50 PM,201910,Non UK Reporting Airports,GUERNSEY,0,0,0,0,0,0,0,0,8.979,0,0,225.451
+12/16/2019 12:02:50 PM,201910,Non UK Reporting Airports,ISLE OF MAN,0,0,0,0,0,0,0,0,0,0,0,167.45
+12/16/2019 12:02:50 PM,201910,Non UK Reporting Airports,JERSEY,0,0,0,0,0,0,0,0,0.931,177.851,0,0
+12/16/2019 12:02:50 PM,201910,Other UK Airports,ABERDEEN,0,0,0,0,0,0,0,0,0.001,0,0,116.909
+12/16/2019 12:02:50 PM,201910,Other UK Airports,BELFAST INTERNATIONAL,0.011,21.883,0,0,0,0,0,0,0,1220.531,0,0
+12/16/2019 12:02:50 PM,201910,Other UK Airports,BENBECULA,0,0,0,0,0,0,0,0,0,0,0,1.903
+12/16/2019 12:02:50 PM,201910,Other UK Airports,BIRMINGHAM,0.064,0,0,0,7.784,0,0,0,0.12,0,0,0
+12/16/2019 12:02:50 PM,201910,Other UK Airports,EAST MIDLANDS INTERNATIONAL,0,3.295,0,0,0,0,0,0,0,2135.119,0,0
+12/16/2019 12:02:50 PM,201910,Other UK Airports,EDINBURGH,0,0,0,0,0,0,0,0,0,2100.738,0,0
+12/16/2019 12:02:50 PM,201910,Other UK Airports,EXETER,0,0,0,0,0,0,0,0,0,0,0,323.502
+12/16/2019 12:02:50 PM,201910,Other UK Airports,INVERNESS,0,0,0,0,0,0,0,0,0,0,0,109.394
+12/16/2019 12:02:50 PM,201910,Other UK Airports,ISLAY,0,0,0,0,0,0,0,0,8.533,0,0,0
+12/16/2019 12:02:50 PM,201910,Other UK Airports,ISLES OF SCILLY (ST.MARYS),0,0,0,0,0,0,0,0,1,12.4,0,0
+12/16/2019 12:02:50 PM,201910,Other UK Airports,KIRKWALL,0,0,0,0,0,0,0,0,1.726,0.021,0,0
+12/16/2019 12:02:50 PM,201910,Other UK Airports,LANDS END (ST JUST),0,0,0,0,0,0,0,0,1,12.4,0,0
+12/16/2019 12:02:50 PM,201910,Other UK Airports,MANCHESTER,0.04,0,0,0,190.21,0,0,0,3.376,0,0,0
+12/16/2019 12:02:50 PM,201910,Other UK Airports,SOUTHAMPTON,2.063,0,0,0,0,0,0,0,1.225,0,0,0
+12/16/2019 12:02:50 PM,201910,Other UK Airports,STORNOWAY,0,0,0,0,0,0,0,0,0,0,0,4.275
+12/16/2019 12:02:50 PM,201910,Other UK Airports,TIREE,0,0,0,0,0,0,0,0,3.265,0.217,0,0
+

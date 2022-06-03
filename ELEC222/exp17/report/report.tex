@@ -1,0 +1,170 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage{graphicx, fullpage, hyperref, listings}
+\usepackage{appendix, pdfpages, color}
+
+\usepackage{tocloft}            % This squashes the Table of Contents a bit
+\setlength\cftbeforesecskip{3pt}
+
+\definecolor{MyLightYellow}{cmyk}{0,0.,0.2,0} 
+
+\setlength{\parskip}{4pt}        % sets spacing between paragraphs
+\interfootnotelinepenalty=500    % this prevents footnotes breaking across pages
+
+\title{
+  \includegraphics[width=0.6\textwidth]{LivUniCrest} \\
+  Experiment 17 - Experimental Error Analysis
+}
+\author{
+  \textcolor{red}{Student ID 201601082} \\     % <<<<<<<<< ID and group number
+  \textcolor{red}{ELEC222}\footnote{\textcolor{red}{IMPORTANT: In a standard technical report, you would need to include here your personal details as the author of the document. However, remember that marking of coursework is anonymous and therefore you should remove this part before submitting your report for Year 2 labs! Do not include your name, student ID, email address or any other personal information.}}
+}
+\date{\today}
+
+
+\begin{document}
+
+
+\begin{titlepage}
+  \maketitle
+  \addtocontents{toc}{\protect\thispagestyle{empty}} % because we don't want a page number on the title page
+
+  \begin{abstract}
+Measurement of physical quantities may contain systematic errors and random errors. ELEC222 introduces error analysis to students through the experiment 17. This report demonstrates an understanding of experimental errors by describing and discussing this experiment. Calibrate instruments, measure components, construct experiment circuit using these components, record measurands, replace one component then repeat measurement, this pattern was followed in the experiment. The results show measurement results are affected by syetematic errors in the instrument as well as random errors due to the enviroment.
+  \end{abstract}
+
+  \fbox{
+    \begin{minipage}{0.9\linewidth} \footnotesize
+      \begin{center} \textbf{Declaration} \end{center}
+I confirm that I have read and understood the University's definition of plagiarism and collusion from the Code of Practice on Assessment. I confirm that I have neither committed plagiarism in the completion of this work nor have I colluded with any other party in the preparation and production of this work. The work presented here is my own and in my own words except where I have clearly indicated and acknowledged that I have quoted or used figures from published or unpublished sources (including the web). I understand the consequences of engaging in plagiarism and collusion as described in the Code of Practice on Assessment (Appendix L).
+    \end{minipage}
+  }
+
+\tableofcontents
+\end{titlepage}
+
+
+\section{Introduction}
+
+Measured value of physical quantities is usually different from the expected value. This difference is caused by systematic errors and random errors \cite{lab_script}. Errors cannot be completely eliminated, but it can be reduced by analysis \cite{lab_script}. Hence, error analysis is an essential skill an engnieer student should hold when a certain accuracy needs to be guaranteed. The bojective of ELEC222 experiment 17 is to introduce error analysis to students by measuring a common emitter amplifier's DC bias and AC signal amplification according to the experiment procedure on the lab script.
+
+
+\section{Materials and Methods}
+
+Materials List:
+\begin{itemize}
+   \item DC power supply: 72-8695A, TENMA
+   \item Function generator: FG303, Digimess
+   \item Digital oscilloscope: TBS1052B-EDU, Tektronix
+   \item Digital multimeter: 72-1016, TENMA
+   \item Bread board: SK10
+   \item Transistors: BC109, Philips Semiconductors
+   \item Resistences ($\Omega$):
+     \subitem 22k $\pm$ 5$\%$
+     \subitem 4.7k $\pm$ 5$\%$
+     \subitem 1.2k $\pm$ 5$\%$ $\times$ 2
+     \subitem 330 $\pm$ 5$\%$
+   \item Variable resistence ($\Omega$): maximum 10K
+   \item Capacitances:
+     \subitem 4.7$\mu$F $\times$ 2
+     \subitem 2200$\mu$F
+\end{itemize}
+
+At the begining, the digital oscilloscope was calibrated. Next, the positive and negative terminal of the DC power supply were connected to two side tracks of the bread board. By using the oscilloscope, power supply voltage on the bread board was set to 15V. Resistors values were measured at this stage as well. Then, a voltage divider was built on the bread board, and voltage at the joint was measured. After that, a transistor and two resistors were added to it to form a common emitter amplifier. The DC voltage on the base, collector, and emitter was measured, and they were measured again after using a same type transistor.
+
+To move on to the second part of the experiment, three capacitors, one variable resistor, and one load resistor were added to the original circuit. A signal generator was connected on the top of the variable resistor and its signal was set to sine wave with frequency 1000Hz and amplitude 50mV peak-to-peak by adjusting the frequency control on it and the resistence of the variable resistor. Then comes the measurement. Input and output signal were measured, and then by increasing the input signal's amplitude until the output was distorted, the threshold of the amplifer was measured. Fianlly, replace the transistor with the same type one, and those measurements were repeated.
+
+
+\section{Results}
+
+The resolution and accuracy of TENMA model 72-1016 digital multimeter are specified in its tech spec manual \cite{TENMA-72-1016}. The measured resistance is only recorded to the penultimate stable resolution, because the last digit on the display fluctuates during the measurement \ref{table:resistor_measured_value}.
+
+\begin{table}[htbp]
+\caption{Resistor measured value}
+\label{table:resistor_measured_value}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+      & Expected value ($\Omega$) & Measured value ($\Omega$) \\ \hline
+$R_1$ & 22k $\pm$ 5$\%$ & 21.9k $\pm$ (0.5$\%$+2) \\ \hline
+$R_2$ & 4.7k $\pm$ 5$\%$ & 4.6k $\pm$ (0.5$\%$+2) \\ \hline
+$R_3$ & 1.2k $\pm$ 5$\%$ & 1.17k $\pm$ (0.5$\%$+2) \\ \hline
+$R_4$ & 330 $\pm$ 5$\%$ & 323 $\pm$ (0.8$\%$+3) \\ \hline
+$R_L$ & 1.2k $\pm$ 5$\%$ & 1.17k $\pm$ (0.5$\%$+2) \\ \hline
+\end{tabular}
+\end{center}  
+\end{table}
+
+The DC gain accuracy of the digtial oscilloscope is $\pm$3$\%$ from 10mV/div to 5V/div, and its vertical resolution is 8 bits \cite{Tektronix-TBS1052B-EDU}.
+
+The voltage divider's output was 2.6V $\pm$ 3$\%$, which is close to the lab script's expected value 2.5V \cite{lab_script}.
+
+As shown in the talbe \ref{table:part_1_1st}, only the base voltage's result was pefectly in agreement with expectation; emitter voltage and collector voltage's results did not accurately match the expected values. Furthermore, after replacement with another transistor of the same type, there was a huge change in the collector voltage \ref{table:part_1_2nd}.
+
+\begin{table}[htbp]
+\caption{Experiment part one first measurement}
+\label{table:part_1_1st}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+             & Expected (V) & Measured (V) & Uncertainty (V) & Abs. error & $\%$ error \\ \hline
+Base voltage & 2.6 & 2.60 & $\pm$ 0.08 & 0 & 0 \\ \hline
+Emitter voltage & 1.9 & 2.00 & $\pm$ 0.06 & 0.1 & 5.3 \\ \hline
+Collector voltage & 8.1 & 8.20 & $\pm$ 0.25 & 0.1 & 1.2\\ \hline
+\end{tabular}
+\end{center}  
+\end{table}
+
+\begin{table}[htbp]
+\caption{Experiment part one second measurement}
+\label{table:part_1_2nd}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+             & Expected (V) & Measured (V) & Uncertainty (V) & Abs. error & $\%$ error \\ \hline
+Base voltage & 2.6 & 2.60 & $\pm$ 0.08 & 0 & 0 \\ \hline
+Emitter voltage & 1.9 & 2.00 & $\pm$ 0.06 & 0.1 & 5.3 \\ \hline
+Collector voltage & 8.1 & 8.40 & $\pm$ 0.25 & 0.3 & 3.7 \\ \hline
+\end{tabular}
+\end{center}  
+\end{table}
+
+\begin{table}[htbp]
+\caption{Experiment part two}
+\label{table:part_2}
+\begin{center}
+\begin{tabular}{ccccc}
+\hline
+  & Frequency (Hz) & Input $V_{pp}$ (mV) & Output $V_{pp}$ (V) & Distortion $V_{pp}$ (V) \\
+\hline
+1st measurement & 1000 & 50.8 $\pm$ 1.5 & 4.48 $\pm$ 0.13 & 9.68 $\pm$ 0.29 \\
+2nd measurement & 1000 & 51.2 $\pm$ 1.5 & 4.48 $\pm$ 0.13 & 9.52 $\pm$ 0.29 \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+From these results, it can be seen that even when using the same type of apparatus, the final measured values can vary greatly. Additionaly, the enviornment has nonnegligible effect on measurements. For instance, during the second part of the experiment, the output $V_{pp}$ was 4.08V while a laptop was charing on the lab table. When the charging cable of the laptop was upluged in the power plug of the lab table, the value became 4.48V.
+
+One possible solution is, by repeatedly replacing apparatuses and changing experimental environment for multiple measurements, and with the help of statistics, errors could be reduced.
+
+
+\section{Discussion}
+
+Table \ref{table:part_1_1st} and \ref{table:part_1_2nd} show when applying almost the same voltage to the base of two transistors of the same type, the collector voltage of both are different. This may suggest that a small change in DC bias can have a large impact on collector voltage. However, table \ref{table:part_2} does not support this comment. Therefore, the impact of DC bias on gain is unclear at this moment. 
+
+The part one is the most successful part of the experiment. This is because it proves that even the same type of apparatuses can make a huge difference to the measurement results.
+
+The part two's input signal's amplitude is too small. The signal dispaly on the oscilloscope kept flctuating and shifting, which is inconvenient for measurement.
+
+
+\section{Conclusions}
+
+In closing, experimental error analysis were mainly practised via experiment 17. By looking at the the experimental results from the view of error, it can be seen that measurement results are subject to syetematic errors in the instrument as well as random errors due to the enviroment. In order to reduce the error to a satisfactory level, it is necessary to adopt targeted measures against sources of error.
+
+
+\bibliographystyle{IEEEtran}  
+\bibliography{refs.bib}                   % The file MyRefs.bib contains the actual bibliography material
+\addcontentsline{toc}{section}{References}  % References section created automatically
+
+
+\end{document}

@@ -1,0 +1,77 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{ref:boxvsgaussian}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1055ddf72248ab77182da568f7c6758d}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Penn State University}%
+      }
+      \strng{namehash}{1055ddf72248ab77182da568f7c6758d}
+      \strng{fullhash}{1055ddf72248ab77182da568f7c6758d}
+      \strng{bibnamehash}{1055ddf72248ab77182da568f7c6758d}
+      \strng{authorbibnamehash}{1055ddf72248ab77182da568f7c6758d}
+      \strng{authornamehash}{1055ddf72248ab77182da568f7c6758d}
+      \strng{authorfullhash}{1055ddf72248ab77182da568f7c6758d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Penn State CSE486 Lecture 4 Smoothing}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cse.psu.edu/~rtc12/CSE486/lecture04.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cse.psu.edu/~rtc12/CSE486/lecture04.pdf
+      \endverb
+    \endentry
+    \entry{ref:canny_ttl}{misc}{}
+      \list{organization}{1}{%
+        {OpenCV}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Canny Edge Detection}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.opencv.org/4.x/da/d22/tutorial_py_canny.html
+      \endverb
+      \verb{url}
+      \verb https://docs.opencv.org/4.x/da/d22/tutorial_py_canny.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

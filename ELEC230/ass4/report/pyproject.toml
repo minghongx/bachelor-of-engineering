@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "report-env"
+version = "2022.03.18"
+description = "A LaTeX report env."
+authors = ["Minghong Xu <86758413+MinghongAlexXu@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.22.3"
+Pillow = "^9.1.0"
+Pygments = "^2.11.2"  # dependency for a LaTeX package, minted.
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

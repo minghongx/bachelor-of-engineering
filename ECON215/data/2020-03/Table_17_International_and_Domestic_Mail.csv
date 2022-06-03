@@ -1,0 +1,24 @@
+﻿rundate,reporting_period,reporting_airport_group_name,reporting_airport_name,mail_scheduled_passenger_aircraft_foreign_EU,mail_scheduled_cargo_aircraft_foreign_EU,mail_charter_passenger_aircraft_foreign_EU,mail_charter_cargo_aircraft_foreign_EU,mail_scheduled_passenger_aircraft_foreign_non_EU,mail_scheduled_cargo_aircraft_foreign_non_EU,mail_charter_passenger_aircraft_foreign_non_EU,mail_charter_cargo_aircraft_foreign_non_EU,mail_scheduled_passenger_aircraft_UK,mail_scheduled_cargo_aircraft_UK,mail_charter_passenger_aircraft_UK,mail_charter_cargo_aircraft_UK
+7/24/2020 10:13:59 AM,202003,London Area Airports,GATWICK,132.469,0,0,0,239.297,0.911,3.405,0,0.407,0,0,0
+7/24/2020 10:13:59 AM,202003,London Area Airports,HEATHROW,631.247,5.96,14.569,0,4324.118,44.484,0.013,53.827,0.076,0,0,0
+7/24/2020 10:13:59 AM,202003,London Area Airports,LUTON,18.038,117.446,0,0,0,0,0,0,0,0,0,0
+7/24/2020 10:13:59 AM,202003,London Area Airports,STANSTED,0,0,0,0,0,0,0,0,0,0,0,1370.012
+7/24/2020 10:13:59 AM,202003,Non UK Reporting Airports,ALDERNEY,0,0,0,0,0,0,0,0,5.774,0.556,0,0
+7/24/2020 10:13:59 AM,202003,Non UK Reporting Airports,GUERNSEY,0,0,0,0,0,0,0,0,6.238,0.869,0,248.049
+7/24/2020 10:13:59 AM,202003,Non UK Reporting Airports,ISLE OF MAN,0,0,0,0,0,0,0,0,0,0,0,154.529
+7/24/2020 10:13:59 AM,202003,Non UK Reporting Airports,JERSEY,0,0,0,0,0,0,0,0,1.389,189.493,0,0
+7/24/2020 10:13:59 AM,202003,Other UK Airports,ABERDEEN,0,0,0,0,0,0,0,0,0,0,0,110.7
+7/24/2020 10:13:59 AM,202003,Other UK Airports,BELFAST INTERNATIONAL,0,27.459,0,0,0,0,0,0,0,1502.333,0,0
+7/24/2020 10:13:59 AM,202003,Other UK Airports,BIRMINGHAM,0.075,0,0,0,7.428,0,0,0,0,0,0,0
+7/24/2020 10:13:59 AM,202003,Other UK Airports,EAST MIDLANDS INTERNATIONAL,0,0,0,0,0,0,0,0,0,1929.244,0,0
+7/24/2020 10:13:59 AM,202003,Other UK Airports,EDINBURGH,0,0,0,0,0,0,0,0,0.039,1879.302,0,0
+7/24/2020 10:13:59 AM,202003,Other UK Airports,EXETER,0,0,0,0,0,0,0,0,0,0,0,274.722
+7/24/2020 10:13:59 AM,202003,Other UK Airports,GLASGOW,0,0,0,0,0.002,0,0,0,4.871,0.365,0,0
+7/24/2020 10:13:59 AM,202003,Other UK Airports,INVERNESS,0,0,0,0,0,0,0,0,0,0,0,89.924
+7/24/2020 10:13:59 AM,202003,Other UK Airports,ISLAY,0,0,0,0,0,0,0,0,7.917,0.292,0,0
+7/24/2020 10:13:59 AM,202003,Other UK Airports,ISLES OF SCILLY (ST.MARYS),0,0,0,0,0,0,0,0,2.2,16.5,0,0
+7/24/2020 10:13:59 AM,202003,Other UK Airports,KIRKWALL,0,0,0,0,0,0,0,0,1.459,0.214,0,0
+7/24/2020 10:13:59 AM,202003,Other UK Airports,LANDS END (ST JUST),0,0,0,0,0,0,0,0,1.5,17.6,0,0
+7/24/2020 10:13:59 AM,202003,Other UK Airports,MANCHESTER,2.992,0,0,0,52.606,0,0,0,0,0,0,0
+7/24/2020 10:13:59 AM,202003,Other UK Airports,TIREE,0,0,0,0,0,0,0,0,2.844,0.211,0,0
+

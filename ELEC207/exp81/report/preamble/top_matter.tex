@@ -1,0 +1,29 @@
+% \geometry{top=3cm, bottom=3cm}
+
+% \setlength{\parskip}{10pt plus 4pt minus 2pt}  % sets spacing between paragraphs
+
+\hypersetup{colorlinks=true}  % to avoid the borders around hyperlinks
+\hypersetup{colorlinks, citecolor=black, filecolor=black, linkcolor=black, urlcolor=black}
+
+\setmainfont{Arial}
+\setmonofont{DejaVu Sans Mono}
+
+%% Configure the exam doc class [Its doc is helpful!]
+\renewcommand{\solutiontitle}{\noindent\textbf{Answer:}\par\noindent}
+\newcounter{lastquestioncounter} % used to resume the counter of \question in another questions env
+% See:
+% https://tex.stackexchange.com/a/554850
+% https://tex.stackexchange.com/a/558624
+% https://tex.stackexchange.com/a/1670
+% Change labeling style of question to A) B) ...
+\renewcommand{\thequestion}{\Alph{question}}
+\renewcommand{\questionlabel}{\thequestion)}
+% Change point style
+\pointsinmargin
+\marginpointname{}
+\bracketedpoints  % or \boxedpoints
+
+% https://tex.stackexchange.com/questions/112559/box-around-minted-environment
+% https://tools.ietf.org/doc/texlive-doc/latex/tcolorbox/tcolorbox.pdf
+\BeforeBeginEnvironment{minted}{\begin{tcolorbox}[boxrule=0.1mm, colback=black!2!white]}
+\AfterEndEnvironment{minted}{\end{tcolorbox}}

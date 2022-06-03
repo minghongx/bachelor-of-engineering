@@ -1,0 +1,5 @@
+recursive-include api *.c *.h
+include python_lib/vl53l1x_python.c
+include api/platform/vl53l1_platform.c
+include README.md
+include CHANGELOG.txt

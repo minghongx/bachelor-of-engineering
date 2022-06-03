@@ -1,0 +1,28 @@
+0.0.5
+-----
+
+* Enhancement: support for ROI thanks to @jinnie
+
+0.0.4
+-----
+
+* Enhancement: support for tca9548a, for #13
+* Enhancement: support for i2c address change, for #14
+* Enhancement: support for setting timing budget, for #16
+* Synced API code with latest release from ST
+
+
+0.0.3
+-----
+
+* Fix: Use i2c_bus param for use with alternate buses/soft i2c
+
+0.0.2
+-----
+
+* Improved search for .so file to pick up arch-specific files
+
+0.0.1
+-----
+
+* Initial release
