@@ -1,0 +1,23 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=VVVFContro 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=114 Type=56 Scope=53 Force=54 Index=13 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                      FR                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                      HA                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                     HL1                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                     HL2                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                     HL3                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                      KA                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                     KA1                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                     KA2                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                     KA3                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                      KF                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                      KM                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                     RST                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                     SB1                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                     SB2                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                     SB3                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                     SB4                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                     SB5                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                     SB6                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                      SF                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                                    STOP                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         

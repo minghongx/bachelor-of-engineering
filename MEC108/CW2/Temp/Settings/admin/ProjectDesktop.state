@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<?AutomationStudio Version=3.0?>
+<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="0"/><Configuration Name="CW2"/><ConfigurationFiles ConfigurationName="CW2" ActiveConfigurationFile="\Logical\VVVFControl\Cyclic.ld"><ConfigurationFile Placement="\Physical\CW2\Hardware.hwl,CW2,3,44,0,1,-1,-1,-1,-1,2,24,993,655"/><ConfigurationFile Placement="\Logical\VVVFControl\Cyclic.ld,VVVFControl,3,44,0,1,-1,-1,-1,-1,2,24,993,655"/><ConfigurationFile Placement="\Logical\VVVFControl\Variables.var,VVVFControl,1,44,0,1,-1,-1,-1,-1,2,24,993,655"/></ConfigurationFiles></Project>

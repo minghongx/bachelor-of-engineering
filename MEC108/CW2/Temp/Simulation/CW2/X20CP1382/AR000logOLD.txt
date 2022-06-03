@@ -1,0 +1,21 @@
+Fri Jun  4 21:00:29 2021
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Fri Jun  4 21:00:29 2021
+No ARsim registration found!
+
+Fri Jun  4 21:00:30 2021
+InstanceName: 01d7594198aab6b0
+
+Fri Jun  4 21:00:30 2021
+WorkingDirectory: C:\Users\admin\Desktop\AX\CW2\Temp\Simulation\CW2\X20CP1382\
+
+Fri Jun  4 21:00:30 2021
+COMMAND_COLDSTART
+
+Fri Jun  4 21:00:32 2021
+Version: C4.72
+
+Fri Jun  4 21:00:48 2021
+COMMAND_TERMINATE
+

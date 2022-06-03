@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
+    <ConnectionParameters>/RT=1000 /DAIP=127.0.0.1 /REPO=11160 /ANSL=1 /AM=* /PT=11169</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>C:\Users\admin\Desktop\AX\CW2\CW2.apj</ApjFullFileName>
+    <ProjectName>CW2</ProjectName>
+    <ActiveConfigurationName>CW2</ActiveConfigurationName>
+    <LicenseDataFolder>C:\Users\admin\Desktop\AX\CW2\Temp\Objects\CW2\X20CP1382</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

@@ -1,0 +1,10 @@
+VAR_CONFIG
+	::VVVFContro:SB2 AT %IX."4SIM.10-01".DigitalInput01;
+	::VVVFContro:SF AT %IX."4SIM.10-01".DigitalInput02;
+	::VVVFContro:SB3 AT %IX."4SIM.10-01".DigitalInput03;
+	::VVVFContro:SB4 AT %IX."4SIM.10-01".DigitalInput04;
+	::VVVFContro:SB5 AT %IX."4SIM.10-01".DigitalInput05;
+	::VVVFContro:HL1 AT %QX."4SIM.10-01".DigitalOutput01;
+	::VVVFContro:HL2 AT %QX."4SIM.10-01".DigitalOutput05;
+	::VVVFContro:HL3 AT %QX."4SIM.10-01".DigitalOutput03;
+END_VAR

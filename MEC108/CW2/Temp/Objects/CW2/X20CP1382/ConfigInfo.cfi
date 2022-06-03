@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.7.2.98"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1" />
+  <TaskClass
+    Name="Cyclic#2" />
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="VVVFContro"
+      Disable="false"
+      Source="VVVFControl"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\admin\Desktop\AX\CW2\Temp\Objects\CW2\X20CP1382\VVVFContro\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Users\admin\Desktop\AX\CW2\Temp\Objects\CW2\X20CP1382\VVVFContro\Init.ld.var" />
+      <InternalFile
+        Path="C:\Users\admin\Desktop\AX\CW2\Temp\Objects\CW2\X20CP1382\VVVFContro\Exit.ld.var" />
+      <File
+        Path="C:\Users\admin\Desktop\AX\CW2\Logical\VVVFControl\Types.typ" />
+      <File
+        Path="C:\Users\admin\Desktop\AX\CW2\Logical\VVVFControl\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

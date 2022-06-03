@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toc Version="2" MINORVERSION="0">
+	<Application>
+		<Class Name="Os">
+			<File Name="arsimproxy.dll" Size="211968" HashValue="5F16A40E26E147686BEF4A464BFB10DB" ProjectDependent="1"/>
+			<File Name="InaFrms.dll" Size="98304" HashValue="BCBB8AB4B7168E2BB538CF86E5B742A3" ProjectDependent="1"/>
+			<Folder Name="Brm" ProjectDependent="1">
+				<File Name="@cfAR000.br" Size="4340" HashValue="DFD809716EA6963AA6B2BDD2626C7F67" ProjectDependent="1"/>
+				<File Name="@sbAR000.br" Size="2292" HashValue="4B4C6B6C0753B5425AF62993F0276121" ProjectDependent="1"/>
+			</Folder>
+			<Folder Name="System" ProjectDependent="1">
+				<Folder Name="BASE" ProjectDependent="1">
+					<Folder Name="COMPONENTS" ProjectDependent="1">
+						<File Name="ArLcTextP.br" Size="537344" HashValue="E05F098D39012CDCD0A3DBA9B9047B54" ProjectDependent="1"/>
+						<File Name="ArUnitSys.br" Size="476228" HashValue="CE3F96837303ADA6203FFEA1FCD8E225" ProjectDependent="1"/>
+					</Folder>
+					<Folder Name="HWD" ProjectDependent="1">
+						<File Name="AsHwdhw_upl.xml.gz" Size="16006" HashValue="4616A8AF34D052072C1F21F58A99FACB" ProjectDependent="1"/>
+						<File Name="AsHwdSimulation.xml.gz" Size="12023" HashValue="596AE7016317261775958AF26D0A5019" ProjectDependent="1"/>
+					</Folder>
+				</Folder>
+				<Folder Name="SDM" ProjectDependent="1">
+					<File Name="arsdm.tar.gz" Size="523087" HashValue="B26A67C7D4920A465EBB31583E2AA1CD" ProjectDependent="1"/>
+				</Folder>
+				<Folder Name="TOC" ProjectDependent="1">
+					<File Name="ftoc.xml" Size="821" HashValue="F83AEC703141D083AB19580424BF781A" ProjectDependent="1"/>
+				</Folder>
+				<Folder Name="WEBSERV" ProjectDependent="1">
+					<File Name="ArWebServ.br" Size="108836" HashValue="088C040947DC2B49F65E9A90FAD315F5" ProjectDependent="1"/>
+				</Folder>
+			</Folder>
+		</Class>
+	</Application>
+</Toc>

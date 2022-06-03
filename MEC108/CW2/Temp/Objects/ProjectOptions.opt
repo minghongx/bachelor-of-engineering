@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.7.2.98"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="C:\Users\admin\Desktop\AX\CW2\Logical\"
+  TempDirectory="C:\Users\admin\Desktop\AX\CW2\Temp\"
+  AutomationStudioVersion="4.7.2.98"
+  AutomationStudioEdition="Standard"
+  BuildCrossReference="false"
+  ActiveConfiguration="CW2"
+  CreateAnsiCDeclarations="false" />
