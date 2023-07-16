@@ -1,0 +1,41 @@
+\documentclass[a4paper, 12pt]{article}
+\title{Designing Electronic Safe}
+
+\usepackage[british]{babel}
+
+\usepackage{graphicx}
+\graphicspath{ {./assets/images/} }
+
+\usepackage[inkscapepath=./.build/svg-inkscape/]{svg}
+\svgpath{ {./assets/images/} }
+
+\usepackage{tabularray}
+
+% Warning: csquotes should be loaded after fvextra, to avoid a warning from the lineno package.
+% Solution: The fvextra package is loaded by minted, so minted should be loaded before csquotes.
+\usepackage[outputdir=./.build/]{minted}
+
+\usepackage{csquotes}
+\usepackage[style=ieee]{biblatex}
+\addbibresource{references.bib}
+
+\usepackage{appendix}
+
+% \usepackage[showframe]{geometry}
+\usepackage{geometry}
+\geometry{top=3cm, bottom=3cm}
+
+\usepackage{setspace}
+\setlength{\parskip}{10pt plus 4pt minus 2pt}  % sets spacing between paragraphs
+
+\usepackage[otfmath]{XCharter}  % loads fontspec, unicode-math, and sets XCharter-Math.otf
+% Check that all fonts are embedded: pdffonts .\.build\main.pdf
+
+\usepackage{hyperref}  % Loading hyperref last: very few packages should come later than this one
+\hypersetup{
+   colorlinks = true,  % to avoid the borders around hyperlinks
+   citecolor  = black,
+   filecolor  = black,
+   linkcolor  = black,
+   urlcolor   = black,
+}

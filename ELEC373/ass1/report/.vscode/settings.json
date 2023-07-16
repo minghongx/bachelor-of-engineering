@@ -1,0 +1,53 @@
+{
+    "files.exclude": {
+        ".build": true,
+    },
+
+    "[latex]": {
+        "editor.wordWrap": "on"
+    },
+
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.outDir": "%DIR%/.build",
+    "latex-workshop.latex.option.maxPrintLine.enabled": false,  // https://github.com/James-Yu/LaTeX-Workshop/issues/2898#issuecomment-938915191
+
+    "latex-workshop.view.pdf.viewer": "tab",
+    // https://github.com/James-Yu/LaTeX-Workshop/wiki/View#external-pdf-viewer
+    // "latex-workshop.view.pdf.viewer": "external",
+    "latex-workshop.view.pdf.external.viewer.command": "zathura",
+    "latex-workshop.view.pdf.external.viewer.args": [
+        "--synctex-editor-command",
+        "code -r -g \"%{input}:%{line}\"",
+        "%PDF%"
+    ],
+    "latex-workshop.view.pdf.external.synctex.command": "zathura",
+    "latex-workshop.view.pdf.external.synctex.args": [
+        "--synctex-forward=%LINE%:0:%TEX%",
+        "%PDF%"
+    ],
+
+    "latex-workshop.latex.tools":[
+        {
+            "name": "latexmk_rconly",
+            "command": "latexmk",
+            "args": [
+                "%DOC%"  // https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#placeholders
+            ],
+            "env": {}
+        },
+    ],
+    "latex-workshop.latex.recipes":[
+        {
+            "name": "latexmk (latexmkrc)",
+            "tools": [
+                "latexmk_rconly"
+            ]
+        },
+    ],
+
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "main.tex": "main.tex.latexmain",
+    },
+}
