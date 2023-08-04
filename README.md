@@ -16,6 +16,8 @@
 
 ## Achievements
 
+[![Page 1 of the Higher Education Achievement Report](images/hear.1.png)](docs/hear.pdf)
+
 [![HoD Engineering Ethics Prize](docs/hod-engineering-ethics-prize.png)](docs/hod-engineering-ethics-prize.pdf)
 
 ![Prizes awarded by the Department of Electrical Engineering and Electronics](docs/prizes.png)
