@@ -2,11 +2,11 @@
 
 [![Degree certificate awarded by the University of Liverpool](images/livuni-cert.png)](docs/livuni-cert.pdf)
 
-[![Degree certificate awarded by the Xi'an Jiaotong-Liverpool University](images/xjtlu-cert.png)](docs/xjtlu-cert.pdf)
+[![Degree certificate awarded by Xi'an Jiaotong-Liverpool University](images/xjtlu-cert.png)](docs/xjtlu-cert.pdf)
 
 ## Assessment and Examination Results
 
-[![Academic transcript from the Xi'an Jiaotong-Liverpool University](images/xjtlu-transcript.png)](docs/xjtlu-transcript.pdf)
+[![Academic transcript from Xi'an Jiaotong-Liverpool University](images/xjtlu-transcript.png)](docs/xjtlu-transcript.pdf)
 
 ### Component Marks
 
