@@ -10,9 +10,13 @@
 
 ### Component Marks
 
-![Final Year assessment and examination results](images/final-year-assessment-and-examination-results.png)
+![Final Year component marks](images/year3-component-marks.png)
 
-![Year 2 assessment and examination results](images/year2-assessment-and-examination-results.png)
+![Year 2 component marks](images/year2-component-marks.png)
+
+![Year 1 component marks](images/year1-component-marks.png)
+
+![Foundation Year component marks](images/year0-component-marks.png)
 
 ## Achievements
 
