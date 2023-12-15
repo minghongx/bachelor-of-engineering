@@ -1,15 +1,15 @@
 [submodule "ELEC330"]
 	path = ELEC330
-	url = https://github.com/MinghonZi/ELEC330
+	url = https://github.com/minghongx/elec330.git
 [submodule "year2-proj"]
 	path = year2-proj
-	url = https://github.com/MinghonZi/year2-proj.git
+	url = https://github.com/minghongx/year2-proj.git
 [submodule "final-year-proj"]
 	path = final-year-proj
-	url = https://github.com/MinghonZi/final-year-proj.git
+	url = https://github.com/minghongx/final-year-proj.git
 [submodule "RoboWork-2021"]
 	path = RoboWork-2021
-	url = https://github.com/MinghonZi/RoboWork-2021.git
+	url = https://github.com/minghongx/robowork.git
 [submodule "SURF-2022"]
 	path = SURF-2022
-	url = https://github.com/MinghonZi/SURF-2022.git
+	url = https://github.com/minghongx/summer-undergraduate-research-fellowship.git
