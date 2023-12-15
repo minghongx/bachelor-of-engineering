@@ -2,11 +2,11 @@
 	path = ELEC330
 	url = https://github.com/minghongx/elec330.git
 [submodule "year2-proj"]
-	path = year2-proj
-	url = https://github.com/minghongx/year2-proj.git
+	path = year2-project
+	url = https://github.com/minghongx/year2-project.git
 [submodule "final-year-proj"]
-	path = final-year-proj
-	url = https://github.com/minghongx/final-year-proj.git
+	path = final-year-project
+	url = https://github.com/minghongx/final-year-project.git
 [submodule "RoboWork-2021"]
 	path = RoboWork-2021
 	url = https://github.com/minghongx/robowork.git
