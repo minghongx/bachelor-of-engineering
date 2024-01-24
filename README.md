@@ -1,3 +1,9 @@
+## Reflection
+
+I consider my undergraduate education to be a failure. I was unable to produce [publishable research](https://ieeexplore.ieee.org/document/9911086), lacked [extensive research experience](https://mp.weixin.qq.com/s/xHTBahrGMRixNa6ur5b52Q), and did not achieve [outstanding academic performance](docs/ruocongwang-academic-transcript.jpg).
+
+I regret choosing an interdisciplinary programme. While I have studied something in each field, I do not have a sufficient understanding of any of them. I am clueless about mechanical engineering, have limited knowledge of electrical engineering and electronics, and did not take any core modules in computer science. What makes me feel most inferior is that I did not receive adequate training in mathematics.
+
 ## Certificates
 
 [![Degree certificate awarded by the University of Liverpool](images/livuni-cert.png)](docs/livuni-cert.pdf)
@@ -27,9 +33,3 @@
 ![Prizes awarded by the Department of Electrical Engineering and Electronics](docs/prizes.png)
 
 ![Certificate of RoboWork 2021](docs/robowork-cert.jpg)
-
-## Reflection
-
-I consider my undergraduate education to be a failure. I was unable to produce [publishable research](https://ieeexplore.ieee.org/document/9911086), lacked [extensive research experience](https://mp.weixin.qq.com/s/xHTBahrGMRixNa6ur5b52Q), and did not achieve [outstanding academic performance](docs/ruocongwang-academic-transcript.jpg).
-
-I regret choosing an interdisciplinary programme. While I have studied something in each field, I do not have a sufficient understanding of any of them. I am clueless about mechanical engineering, have limited knowledge of electrical engineering and electronics, and did not take any core modules in computer science. What makes me feel most inferior is that I did not receive adequate training in mathematics.
