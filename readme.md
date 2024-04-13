@@ -37,3 +37,5 @@ I regret choosing an interdisciplinary programme. While I have studied something
 ![Prizes awarded by the Department of Electrical Engineering and Electronics](docs/prizes.png)
 
 ![Certificate of RoboWork 2021](docs/robowork-cert.jpg)
+
+[![Certificate of Mathematical Contest in Modeling 2021](docs/mcm-2021-cert-2122957.png)](docs/mcm-2021-cert-2122957.pdf)
