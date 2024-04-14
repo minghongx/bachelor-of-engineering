@@ -22,8 +22,8 @@ I regret choosing an interdisciplinary programme. While I have studied something
 
 [![Page 1 of the Higher Education Achievement Report](images/hear.1.png)](docs/hear.pdf)
 
-[![HoD Engineering Ethics Prize](docs/hod-engineering-ethics-prize.png)](docs/hod-engineering-ethics-prize.pdf)
+[![HoD Engineering Ethics Prize](images/hod-engineering-ethics-prize.png)](docs/hod-engineering-ethics-prize.pdf)
 
 ![Certificate of RoboWork 2021](docs/robowork-cert.jpg)
 
-[![Certificate of Mathematical Contest in Modeling 2021](docs/mcm-2021-cert-2122957.png)](docs/mcm-2021-cert-2122957.pdf)
+[![Certificate of Mathematical Contest in Modeling 2021](images/mcm-2021-cert-2122957.png)](docs/mcm-2021-cert-2122957.pdf)
