@@ -11,6 +11,7 @@ I regret choosing an interdisciplinary programme. While I have studied something
 ## Degree certificates
 
 [![Degree certificate awarded by the University of Liverpool](images/livuni-cert.png)](docs/livuni-cert.pdf)
+[UK Higher Education Student Statistics](https://hesa.ac.uk/data-and-analysis/students)
 
 [![Degree certificate awarded by Xi'an Jiaotong-Liverpool University](images/xjtlu-cert.png)](docs/xjtlu-cert.pdf)
 
