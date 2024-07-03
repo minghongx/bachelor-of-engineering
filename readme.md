@@ -11,7 +11,6 @@ I regret choosing an interdisciplinary programme. While I have studied something
 ## Degree certificates
 
 [![Degree certificate awarded by the University of Liverpool](images/livuni-cert.png)](docs/livuni-cert.pdf)
-[UK Higher Education Student Statistics](https://hesa.ac.uk/data-and-analysis/students)
 
 [![Degree certificate awarded by Xi'an Jiaotong-Liverpool University](images/xjtlu-cert.png)](docs/xjtlu-cert.pdf)
 
@@ -28,3 +27,9 @@ I regret choosing an interdisciplinary programme. While I have studied something
 ![Certificate of RoboWork 2021](docs/robowork-cert.jpg)
 
 [![Certificate of Mathematical Contest in Modeling 2021](images/mcm-2021-cert-2122957.png)](docs/mcm-2021-cert-2122957.pdf)
+
+## Statistics
+
+[UK Higher Education Student Statistics](https://hesa.ac.uk/data-and-analysis/students)
+
+[西交利物浦大学 2023 届毕业生就业质量报告](docs/xjtlu-report-of-careers-and-employability-class-of-2023.pdf)
